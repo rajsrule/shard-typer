@@ -1,0 +1,31 @@
+SHARD TYPER
+
+Portable: unzip the download and double-click ShardTyper.exe.
+Installer: run the setup file, then search for "Shard Typer" in Start.
+
+1. Paste text or import a .txt file in the text panel.
+2. Choose Cursor mode and click Start. Select your destination during the
+   five-second countdown. Change this delay in Settings if needed.
+3. Or choose Hotkey mode, select your destination, and press Ctrl + Alt + F8.
+4. The hotkey pauses and resumes. Esc stops an active session and resets it.
+
+Timing: adjust minimum, maximum, center, standard deviation, and skew.
+Mid sets the center halfway between the minimum and maximum.
+Uniform mode chooses evenly across the range. Changes apply live after the
+currently scheduled character. The curve shows measured recent intervals.
+The time target calculates the needed pace without changing your settings.
+
+Drag the divider between text and timing to give either panel more room.
+Pin keeps the app above other windows. Collapse turns it into a preview pill.
+The collapse/expand button stays in the same position. The sliders icon opens
+Settings in a distinct glass pane. Back to typing stays above its scroll area.
+Background blur is enabled by default on Windows 11 and stays on when another
+app has focus. Adjust Dark tint for contrast or turn Blur background off in
+Settings. Windows 10 keeps tinted transparency and reports blur unavailable.
+Text and settings are saved locally in %LOCALAPPDATA%\ShardTyper.
+Closing and reopening always restores an idle session.
+
+The app pauses when the target WINDOW loses focus. Changing tabs or moving
+the caret inside that same window is not detected. Enter is used for line
+breaks by default; Settings also offers Shift + Enter. Tabs become spaces.
+Input support varies by editor. See README and docs/VALIDATION.md in the source.
